@@ -36,7 +36,7 @@ body {
 .card {
   display:flex;
   flex-wrap: wrap;
-  width: 77%;
+  width: 69.4rem;
   margin:0 auto;
   background-color: hsl(244, 38%, 16%);
   border-radius: 0.5rem;
@@ -68,7 +68,7 @@ body {
 .card-image-container img {
   min-height: 100%;
   width: 100%;
-  opacity: 0.5;
+  mix-blend-mode: multiply;
 }
 
 /* Card Feature Section */
@@ -92,7 +92,7 @@ body {
 }
 
 /* Mobile Display */
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:1000px) {
   /* Device Display */
   .desktop {
     display: none;
